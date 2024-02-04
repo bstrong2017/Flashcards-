@@ -6,6 +6,7 @@ function Flashcard({question,answer, imageSrc}){
 const [isFlipped, setIsFlipped] = useState(false);
 const [count, setCount] = useState(0);
 
+
 const handleCardFlip = () => {
     setIsFlipped(!isFlipped);
 };
@@ -97,6 +98,7 @@ function TenFlashcards() {
 
     const handleNextCard = () => {
         setCurrentCardIndex((prevIndex) => (prevIndex + 1) % flashcards.length);
+
     };
 
     const currentCard = flashcards[currentCardIndex];

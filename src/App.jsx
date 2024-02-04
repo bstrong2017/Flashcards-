@@ -9,6 +9,7 @@ const App = () => {
       <div className="flashcard-container">
       <h1>✨Foundations of Cybersecurity Flashcards✨</h1>
       <h2>Prepare for class before the lecture begins!📝</h2>
+      <h2>Total Cards: 10</h2>
       </div>
       <Flashcard/>
     </div>
